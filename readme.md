@@ -31,7 +31,7 @@ uv run --env-file .env python jev_classify.py
 
 ## What Happens Under the Hood
 
-### uv init generates:
+0. uv init generates:
 
 - `pyproject.toml`: The standard modern Python configuration file.
 
@@ -39,7 +39,7 @@ uv run --env-file .env python jev_classify.py
 
 - `.gitignore`: Configured to ignore .venv/ and build artifacts.
 
-### uv add -r requirements.txt:
+0. uv add -r requirements.txt:
 
 - Parses `typesafe-sdk`, `yt-dlp`, `pandas`, and `python-dotenv` from file.
 
@@ -49,7 +49,7 @@ uv run --env-file .env python jev_classify.py
 
 - Automatically builds and populates the `.venv` directory.
 
-### Once migrated, you can delete `requirements.txt` (`rm requirements.txt`) as `pyproject.toml` and `uv.lock` now manage project dependencies.
+0. Once migrated, you can delete `requirements.txt` (`rm requirements.txt`) as `pyproject.toml` and `uv.lock` now manage project dependencies.
 
 
 ---
