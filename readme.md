@@ -1,5 +1,11 @@
 
-# Modern uv Project Workflow (Recommended)
+# YouTube Video Classifier with Jev AI
+
+A fast, lightweight classification pipeline that extracts YouTube video metadata via `yt-dlp` and categorizes topics, content formats, and educational value using TypeSafe AI's calibrated **Jev** decision model. Packaged and managed with Astral's `uv`.
+
+
+
+## Modern uv Project Workflow (Recommended)
 
 uv can manage project dependencies natively via pyproject.toml, eliminating the need for requirements.txt and manual venv activation altogether:
 
@@ -29,7 +35,7 @@ uv run --env-file .env python jev_classify.py
 ---
 
 
-## What Happens Under the Hood
+### What Happens Under the Hood
 
 1. `uv init` generates:
 
@@ -55,7 +61,7 @@ uv run --env-file .env python jev_classify.py
 ---
 
 
-## Later just commit and distribute:
+### Later just commit and distribute:
 
 - `pyproject.toml`: Defines the project declaration (dependencies, metadata, build tool).
 
@@ -76,7 +82,7 @@ uv sync --frozen --no-dev
 ---
 
 
-# Legacy venv & pip Project Workflow (using uv for speed)
+## Legacy venv & pip Project Workflow (using uv for speed)
 
 Create the virtual environment:
 ```
