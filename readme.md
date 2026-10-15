@@ -5,7 +5,7 @@
 
 A fast, lightweight classification pipeline that extracts YouTube video metadata via `yt-dlp` and categorizes topics, content formats, and educational value using TypeSafe AI's calibrated **Jev** decision model. Packaged and managed with Astral's `uv`.
 
-
+---
 
 ## Modern uv Project Workflow (Recommended)
 
