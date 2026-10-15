@@ -31,7 +31,7 @@ uv run --env-file .env python jev_classify.py
 
 ## What Happens Under the Hood
 
-1. uv init generates:
+1. `uv init` generates:
 
     - `pyproject.toml`: The standard modern Python configuration file.
 
@@ -39,7 +39,7 @@ uv run --env-file .env python jev_classify.py
 
     - `.gitignore`: Configured to ignore .venv/ and build artifacts.
 
-2. uv add -r requirements.txt:
+2. `uv add -r requirements.txt`:
 
     - Parses `typesafe-sdk`, `yt-dlp`, `pandas`, and `python-dotenv` from file.
 
