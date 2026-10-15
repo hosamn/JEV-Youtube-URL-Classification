@@ -1,0 +1,20 @@
+# Environment & Secrets
+!.env.example
+.env
+.env.*
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Runtime input and output data
+!urls.example.txt
+urls.txt
+*.csv

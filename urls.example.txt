@@ -1,0 +1,24 @@
+# ==============================================================================
+# urls.example.txt - Sample benchmark dataset for testing Jev classifier
+# ==============================================================================
+
+# Tech & Coding (Fireship - Python in 100 Seconds)
+https://www.youtube.com/watch?v=x7X9w_GIm1s
+
+# Science & Math Education (3Blue1Brown - Neural Networks)
+https://www.youtube.com/watch?v=aircAruvnKk
+
+# History & Documentary (CrashCourse - Agricultural Revolution)
+https://www.youtube.com/watch?v=Yocja_N5s1I
+
+# Gaming & Lore (Valve - Half-Life 2 20th Anniversary Documentary)
+https://www.youtube.com/watch?v=BQz4G0_qL3k
+
+# Entertainment & Music (Rick Astley - Never Gonna Give You Up)
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+# Vertical Short-form test (Veritasium - Siphon Physics Short)
+https://www.youtube.com/shorts/U_fF44i-n6A
+
+# Channel handle test (CrashCourse Official Channel)
+https://www.youtube.com/@crashcourse

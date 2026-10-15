@@ -1,0 +1,4 @@
+typesafe-sdk>=0.1.0
+yt-dlp>=2024.0.0
+pandas>=2.0.0
+python-dotenv>=1.0.0

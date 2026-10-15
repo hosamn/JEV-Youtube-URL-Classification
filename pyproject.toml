@@ -1,0 +1,22 @@
+[project]
+name = "jev-youtube-url-classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hosamn", email = "34396668+hosamn@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "typesafe-sdk>=0.1.0",
+    "yt-dlp>=2024.0.0",
+]
+
+[project.scripts]
+jev-youtube-url-classification = "jev_youtube_url_classification:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
